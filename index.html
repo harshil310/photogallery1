@@ -1,198 +1,130 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>TK Photography</title>
-    <meta name="author" content="Hailey Draper">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Enjoy the pleasant sounds of smooth jazz with curated playlists for your enjoyment.">
-    <link href="styles.css" rel="stylesheet">
+    <title>TK Photography</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <ul>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Contact</li>
-        <li>top</li>
-    </ul>
+<body id="top">
 
-    
-    <nav>
+    <header>
+        <h1>TK Photography</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
         <h2>About</h2>
-        <li>Hello!</li>
-        <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
-        <input type="checkbox" id="hamburger">
-        <label for="hamburger"><span></span></label>
-        <a href="index.html" class="home">TK Photography/*</a>
-        <ul>
-            <li><a href="user"><img src="images/duke-silver.png" alt="Duke Silver playing saxaphone"></a></li>
-        </ul>
-    </nav>
+        <article>
+            <h3>Hello!</h3>
+            <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </article>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <figure>
+            <img src="Chile.png" alt="Chile">
+            <figcaption>Chile, 2001</figcaption>
+        </figure>
 
-    <main>
-        <section id="trend">
-            <h2>Trending Songs</h2>
-            <div class="trend">
-                <section class="song">
-                    <div class="info">
-                    <h3>Aloma</h3>
-                    <dl>
-                        <dt>Artist </dt>
-                        <dd>Cali</dd>
-                    </dl>
-            </div>
-            <img src="images/aloma-cover.png" alt="White dove with wings spread">
-            <audio controls src="audio/aloma.mp3">
-                <a href="audio/aloma.mp3">Download audio</a>
-            </audio>
-        </section>
-    </main>
+        <figure>
+            <img src="Guatemala.png" alt="Guatemala">
+            <figcaption>Guatemala, 1997</figcaption>
+        </figure>
 
-    <section class="song">
-        <div class="info">
-            <h3>My road</h3>
-            <dl>
-                <dt>Artist</dt>
-                <dd>Nesterouk</dd>
-            </dl>
-        </div>    
-        <img src="images/my-road-cover.png" alt="road in desert with blue skies and snowy mountains in distance">
-            <audio controls src="audio/my-road.mp3">
-                <a href="audio/my-road.mp3">Download audio</a></audio>
+        <figure>
+            <img src="Hawaii.png" alt="Hawaii">
+            <figcaption>Hawaii, 2010</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Iran.png" alt="Iran">
+            <figcaption>Iran, 1999</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Ireland.png" alt="Ireland">
+            <figcaption>Ireland, 2012</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Italy.png" alt="Italy">
+            <figcaption>Italy, 2015</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Moab-Desert.png" alt="Moab-Desert">
+            <figcaption>Moab-Desert, 2020</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Rocky-Mountains.png" alt="Rocky-Mountains">
+            <figcaption>Rocky-Mountains, 2009</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Switzerland.png" alt="Switzerland">
+            <figcaption>Switzerland, 2014</figcaption>
+        </figure>
+
+        <figure>
+            <img src="UK.png" alt="UK">
+            <figcaption>UK, 2005</figcaption>
+        </figure>
+
+        <figure>
+            <img src="USA.png" alt="USA">
+            <figcaption>USA, 2021</figcaption>
+        </figure>
+
+        <figure>
+            <img src="Wyoming.png" alt="Wyoming">
+            <figcaption>Wyoming, 2021</figcaption>
+        </figure>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <article>
+            <p>Please fill out this form and I’ll connect with you soon.</p>
+
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name (Your full name)</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email (Enter your email address)</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="message">Message (What can I help you with?)</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </article>
     </section>
 
-   <!-- change class from this line until new trend -->
-
-    <section class="song">
-        <div class="info">
-            <h3>Papaya</h3>
-            <dl>
-                <dt>Artist</dt>
-                <dd>Dredstudio</dd>
-            </dl>
-        </div>    
-        <img src="images/papaya-cover.png" alt="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
-            <audio controls src="audio/papaya.mp3">
-                <a href="audio/papaya.mp3">Download Audio</a></audio>
-    </section>
-
-    <section class="song">
-        <div class="info">
-            <h3>Smoothies</h3>
-            <dl>
-                <dt>Artist</dt>
-                <dd>Black Rhomb</dd>
-            </dl>
-        </div>    
-        <img src="images/smoothies-cover.png" alt="road in desert with blue skies and snowy mountains in distance">
-            <audio controls src="audio/smoothies.mp3">
-                <a href="audio/smoothies.mp3">Download audio</a></audio>
-    </section>
-
-    <section class="song">
-        <div class="info">
-            <h3>Successful Performance</h3>
-            <dl>
-                <dt>Artist</dt>
-                <dd>Ricky Bombino</dd>
-            </dl>
-        </div>    
-        <img src="images/successful-performance-cover.png" alt="road in desert with blue skies and snowy mountains in distance">
-            <audio controls src="audio/successful-performance.mp3">
-                <a href="audio/successful-performance.mp3">Download audio</a></audio>
-    </section>
-
-    </section>
-            <a href="#" class="btn">More trending</a>
-    </section>
-
-
-    <section id="your">
-        <h2>Your playlists</h2>
-        <div class="playlists">
-            <section class="playlist-info">
-                <img src="images/best-of-2020-cover.png" alt="fire that has '2020' inside the flames">
-                <h3>Best of 2020</h3>
-                <p>The music that got you through the lock down.</p>
-            </section>
-
-            <!--change the class and img src & alt acc-->
-
-            <section class="playlist-info">
-                <img src="images/pumpkin-spice-cover.png" alt="fire that has '2020' inside the flames">
-                <h3>Pumpkin Spice</h3>
-                <p>Creamy and spicy, just like your favorite autumnal latte.</p>
-            </section>
-
-            <section class="playlist-info">
-                <img src="images/best-of-2020-cover.png" alt="fire that has '2020' inside the flames">
-                <h3>Best of 2020</h3>
-                <p>The music that got you through the lock down.</p>
-            </section>
-
-            <section class="playlist-info">
-                <img src="images/best-of-2020-cover.png" alt="fire that has '2020' inside the flames">
-                <h3>Best of 2020</h3>
-                <p>The music that got you through the lock down.</p>
-            </section>
-
-            <section class="playlist-info">
-                <img src="images/best-of-2020-cover.png" alt="fire that has '2020' inside the flames">
-                <h3>Best of 2020</h3>
-                <p>The music that got you through the lock down.</p>
-            </section>
-        </div>
-            <a href="#" class="btn">All your playlists</a>
-    </section>
-
-    <!-- Don't forgot to chnage ID and all the classes  from Curated list -->
-
-        <section id="curated">
-            <h2>Cureated Playlists</h2>
-            <div class="playlists">
-                <section class="playlist-info">
-                    <img src="images/boozy-brunch-cover.png" alt="six people at an outdoor brunch doing cheers with their booze">
-                    <h3>Best of 2020</h3>
-                    <p>The music that got you through the lock down.</p>
-                </section>
-
-                <!--change the class and img src & alt acc-->
-
-                <section class="playlist-info">
-                    <img src="images/dinner-party-cover.png" alt="fire that has '2020' inside the flames">
-                    <h3>Best of 2020</h3>
-                    <p>The music that got you through the lock down.</p>
-                </section>
-
-                <section class="playlist-info">
-                    <img src="images/mellow-cover.png" alt="fire that has '2020' inside the flames">
-                    <h3>Best of 2020</h3>
-                    <p>The music that got you through the lock down.</p>
-                </section>
-
-                <section class="playlist-info">
-                    <img src="images/best-of-2020-cover.png" alt="fire that has '2020' inside the flames">
-                    <h3>Best of 2020</h3>
-                    <p>The music that got you through the lock down.</p>
-                </section>
-
-                <section class="playlist-info">
-                    <img src="images/best-of-2020-cover.png" alt="fire that has '2020' inside the flames">
-                    <h3>Best of 2020</h3>
-                    <p>The music that got you through the lock down.</p>
-                </section>
-            </div>
-                <a href="#" class="btn">More Curated</a>
-        </section>
-    </main>
+    <a href="#top">top</a>
 
     <footer>
-        <p>Copyright 2022 Smooth Jazz</p>
+        <p>Copyright 2021 TK Photography</p>
     </footer>
 
 </body>
 
 </html>
+
+
