@@ -1,130 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Brittany Miller" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TK Photography</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body id="top">
-
-    <header>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
         <h1>TK Photography</h1>
         <nav>
-            <a href="#about">About</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Top</a></li>
+          </ul>
         </nav>
-    </header>
-
-    <section id="about">
+      </header>
+      <main>
         <h2>About</h2>
-        <article>
-            <h3>Hello!</h3>
-            <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
-        </article>
-    </section>
-    
-    <section id="gallery">
+        <p>Hello!</p>
+        <p>
+          I&apos;m TK and I&apos;m a photographer. I love looking at life
+          through the lens of my camera. Landscape photography is my speciality
+          and it&apos;s taken me all over the world.
+        </p>
+      </main>
+      <section id="galleryContainer">
         <h2>Gallery</h2>
-        <figure>
-            <img src="Chile.png" alt="Chile">
+        <p>
+          Here are some highlights of my work. The locations and year are in the
+          caption.
+        </p>
+        <div id="imgGallery">
+          <figure>
+            <img src=images/Chile.png alt="Relaxing beach scene." />
             <figcaption>Chile, 2001</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Guatemala.png" alt="Guatemala">
-            <figcaption>Guatemala, 1997</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Hawaii.png" alt="Hawaii">
+          </figure>
+          <figure>
+            <img src=images/Guatemala.png alt="Flowering mexican heather lining
+            stair path" />
+            <figcaption class="topCaption">Guatemala, 1997</figcaption>
+          </figure>
+          <figure>
+            <img src=images/Hawaii.png alt="Aerial view of island surrounded by
+            open water." />
             <figcaption>Hawaii, 2010</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Iran.png" alt="Iran">
-            <figcaption>Iran, 1999</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Ireland.png" alt="Ireland">
-            <figcaption>Ireland, 2012</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Italy.png" alt="Italy">
-            <figcaption>Italy, 2015</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Moab-Desert.png" alt="Moab-Desert">
-            <figcaption>Moab-Desert, 2020</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Rocky-Mountains.png" alt="Rocky-Mountains">
-            <figcaption>Rocky-Mountains, 2009</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Switzerland.png" alt="Switzerland">
-            <figcaption>Switzerland, 2014</figcaption>
-        </figure>
-
-        <figure>
-            <img src="UK.png" alt="UK">
-            <figcaption>UK, 2005</figcaption>
-        </figure>
-
-        <figure>
-            <img src="USA.png" alt="USA">
-            <figcaption>USA, 2021</figcaption>
-        </figure>
-
-        <figure>
-            <img src="Wyoming.png" alt="Wyoming">
-            <figcaption>Wyoming, 2021</figcaption>
-        </figure>
-
-    <section id="contact">
+          </figure>
+          <figure>
+            <img src=images/Iran.png alt="Flowering red shrubs and grass" />
+            <figcaption class="blackText blackTopCaption">
+              Iran, 1999
+            </figcaption>
+          </figure>
+          <figure>
+            <img src=images/Ireland.png alt="Mountain view of trees and grass"
+            />
+            <figcaption class="blackText blackTopCaption">
+              Ireland, 2012
+            </figcaption>
+          </figure>
+          <figure>
+            <img src=images/Italy.png alt="Overlooking a lake and mountain
+            trails." />
+            <figcaption class="blackText">Italy, 2015</figcaption>
+          </figure>
+          <figure>
+            <img src=images/Moab-Desert.png alt="Mountain view of rocks at
+            sunset" />
+            <figcaption>Moab Desert, 2020</figcaption>
+          </figure>
+          <figure>
+            <img src=images/Rocky-Mountains.png alt="Ocean waves crashing into
+            tall pillar of rocks" />
+            <figcaption class="blackText topCaption">
+              Rocky Mountains, 2009
+            </figcaption>
+          </figure>
+          <figure>
+            <img src=images/Switzerland.png alt="Mountains covered in snow. " />
+            <figcaption class="blackText topCaption">
+              Switzerland, 2014
+            </figcaption>
+          </figure>
+          <figure>
+            <img src=images/UK.png alt="Low lying valleys covered in greenery."
+            />
+            <figcaption class="blackText topCaption">UK, 2005</figcaption>
+          </figure>
+          <figure>
+            <img src=images/USA.png alt="Yellow and red flowers patches amongst
+            tall grass." />
+            <figcaption class="blackText topCaption">USA, 2021</figcaption>
+          </figure>
+          <figure>
+            <img src=images/Wyoming.png alt="Lakeside view of evergreen trees
+            and mountains." />
+            <figcaption class="topCaption">Wyoming, 2021</figcaption>
+          </figure>
+          <div></div>
+        </div>
+      </section>
+      <section id="contact">
         <h2>Contact</h2>
-        <article>
-            <p>Please fill out this form and I’ll connect with you soon.</p>
-
-            <form action="#" method="post">
-                <div>
-                    <label for="name">Name (Your full name)</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-
-                <div>
-                    <label for="email">Email (Enter your email address)</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div>
-                    <label for="message">Message (What can I help you with?)</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </article>
-    </section>
-
-    <a href="#top">top</a>
-
-    <footer>
-        <p>Copyright 2021 TK Photography</p>
-    </footer>
-
-</body>
-
+        <form>
+          <p>Please fill out this form and I&apos;ll connect with you soon.</p>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your full name" required />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+          />
+          <label for="message">Message</label>
+          <input
+            type="text"
+            id="message"
+            placeholder="What can I help you with?"
+          />
+          <button id="submit">Submit</button>
+        </form>
+      </section>
+      <footer>
+        <p><small>Copyright 2023 TK Photography</small></p>
+      </footer>
+    </div>
+  </body>
 </html>
-
-
